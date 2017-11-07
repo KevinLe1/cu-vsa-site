@@ -1,1 +1,112 @@
+img{
+	width:20%;
+	height:auto;
+	float:right;
+}
 
+#page1{
+	background:#fd6868;
+	height:750px;
+}
+
+#page2{
+	background:#FFEBAE;
+	height:750px;
+	font-family:"Lato",sans-serif;
+}
+
+#page2 h1{
+	font-size:300%;
+	color:#8B9DC3;
+}
+
+#page2 h2{
+	color:gray;
+}
+
+#page2 a{
+	color:black;
+	font-size:115%;
+}
+
+#page2 img{
+	width:70%;
+	height:auto;
+	margin:auto;
+	padding-top:2%;
+	padding-bottom:7%;
+	float:none;
+}
+
+#page3{
+	background:#8B9DC3;
+	height:750px;
+	font-family:"Lato", sans-serif;
+	color:white;
+}
+
+#page3 h1{
+	font-size:300%;
+}
+
+#application{
+	font-family:"Lato", sans-serif;
+	padding-right:10%;
+	color:white;
+}
+
+#home{
+	padding-left:10%;
+	font-family:"Lato", sans-serif;
+	color:white;
+	padding-right:10%;
+}
+#home h1{
+	font-size: 500%;
+	font-weight:bold;
+}
+
+#home p{
+	font-size: 130%;
+}
+
+#home a{
+	color:#C70000;
+}
+
+#navigation_logo img{
+	width:20%;
+	height:auto;
+}
+#navigation{
+	font-family:"Lato", sans-serif;
+}
+
+#navigation a{
+	color:#2B2B2B;
+	padding-left:5px;
+	font-size:125%;
+}
+
+#section-divider{
+	margin:auto;
+	width:80%;
+	background:white;
+	/*background: #e6b800;*/
+	padding:1px;
+	border-radius:1px;
+	opacity:0.70;
+
+}
+
+.responsiveCal {
+ 
+position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+ 
+}
+ 
+.responsiveCal iframe {
+ 
+position: absolute; top:0; left: 0; width: 100%; height: 100%;
+ 
+}
