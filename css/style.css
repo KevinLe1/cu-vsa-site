@@ -105,7 +105,7 @@ footer p{
 
 .bg {
     /* The image used */
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banh_mi_group_photo.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banh_mi_group_photo.JPG');
     /*background-image: url("../img/banh_mi_group_photo.jpg");*/
 
     /* Full height */
