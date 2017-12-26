@@ -1,162 +1,261 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>CU-VSA</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+	<meta charset = "utf-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1">
+	<title>CU-VSA</title>
+	<link rel = "stylesheet" type = "text/css" href = "css/style.css" media = "screen">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|Nunito|Raleway|Lato" rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script src = "js/jquery-3.1.0.min.js"></script>
+	<script type = "text/javascript" src = "js/smoothscroll.js"></script>
+	<script tyle = "text/javascript" src = "js/loading.js"></script>
+	<script tyle = "text/javascript" src ="js/typed.min.js"></script>
+	<script tyle = "text/javascript" src="js/typewriter.js"></script>
+</head>
+<body>
 
-        <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<div class="bg" id ="home">
+	<header>
+	<nav>
+		<ul>
+			<li><a href = "#home" class="current smoothScroll">Home</a></li>
+			<li><a href = "#events" class="smoothScroll">Events</a></li>
+			<li><a href = "#board" class="smoothScroll">Board</a></li>
+			<li><a href= "#contact" class="smoothScroll">Contact</a></li>
+			<!--<li><a href = "#teams" class = "smoothScroll">Teams</a></li>-->
+		</ul>
+	</nav>
+</header>
+	<div class="center">
+		<!--<img src="img/VSA_logo.png">-->
+		<h1>Columbia Vietnamese Students Association</h1>
+		<br>
+		<div id="typetext"></div>
+		<br><br>
+		<a href="https://www.facebook.com/vsacolumbia/"><i class="fa fa-facebook-official fa-2x" style="color:#f0f0f0"></i></a>
+		<!--<i class="fa fa-twitter-square fa-2x" style="color:#f0f0f0"></i>
+		<i class="fa fa-instagram fa-2x" style="color:#f0f0f0"></i>-->
+	</div>
+</div>
 
-    <script>
-$(function() {
-  $('a[href*="#"]:not(.carousel-control-prev, .carousel-control-next)').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-</script>
-</script>
-
-  </head>
-  <body>
-
-  	<nav class="navbar navbar-light bg-faded sticky-top" style="background-color: #ffbcbc; z-index:100; opacity:0.75">
-		  	<section id="navigation">
-		    <ul class="nav">
-		      <li class="nav-item">
-		        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#events">Events</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#board">Board</a>
-		      </li>
-		    </ul>
-			</section>
-			<img src="img/VSA_logo.png">
-		</nav>
- 
- 	<div id="page1">
-	<a id="home" class="smooth"></a>
-
-    <table style="height: 90%;">
-      <tbody>
-        <tr>
-          <td class="align-middle">
-            <section id="home">
-              <!--<h1>CU-VSA</h1>-->
-	            <!--<img src="img/VSA_logo.png" alt="logo">-->
-	            <h1>CU-VSA</h1>
-	            <br>
-	            <h2>Columbia University's Vietnamese Students Association</h2>
-            </section>
-            <br>
-            <section id="section-divider"></section>
-            <br>
-            <section id="home">
-            	
-	            <section id="application">
-	            	<a style="color:white" href="https://goo.gl/forms/1ugkyLpA58bX1ul22" role="button" class="btn btn-danger btn-lg">Subscribe to our Mailing List</a>
-	            </section>
-	            <br>
-	            <p>Contact Us: <a href="mailto: vsa@columbia.edu">vsa@columbia.edu</a></p>
-            </section>
-
-          </td>
-        </tr>
-      </tbody>
-    </table>
+<div class="section-header" id="events"></div>
+<br>
+<h1>Next Event</h1>
+<br>
+<div class="section-divider"></div>
+<br>
+<div class="next-event-container">
+	<h2>Tet Celebration!
+	<br><strong>When: Friday Feb. 9th, 6 PM - 8:30 PM
+	<br>Where: Lerner 555
+	<br>Price: $5 Pre-ordered, $7 at the door</strong></h2>
+	<br>
+	<p>Come ring in the year of the Dog with VSA! There will be performances, food, karaoke, and more.</p>
+	<br>
+	<img class="next-event" src="img/tet.jpg" alt="Tet lanterns">
+</div>
+<br>
+<h1>Past Events</h1>
+<br>
+<div class="section-divider"></div>
+<br>
+<div class="general-container">
+	<div>
+		<img class="past-event" src="img/banh_mi_past.JPG" alt="Banh Mi Bash photo">
+		<h2>Banh Mi Bash
+		<br><strong>When: Nov. 10th, 2017
+		<br>Where: Lerner Multicultural Center
+		</strong></h2>
+		<p>A night of entertainment, games (such as Vietnamese gambling, Wii, Pin the Banh Mi on the Hungry Dude, and more), and BANH MI!</p>
 	</div>
 
-	<div id="page2">
-		<a id="events" class="smooth"></a>
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<br><br><br>
-							<h1 class="text-center">Our Next Event</h1>
-							<h2 class="text-center"><a href="https://www.facebook.com/events/377044509384122/">Banh Mi Bash</a></h2>
-							<h2 class="text-center">Fri., Nov. 10th, 7 PM - 9PM @ Lerner Multicultural Center</h2>
-							<br><p id="section-divider"></p><br>
-							</div>
-						</div>
-				<div class="row">
-					<div class="col">
-						<h1 class="text-center">Past Events</h1>
-					</div>
-				</div>
-			</div>
-    	<table style="height: 27%;">
-      	<tbody>
-        	<tr>
-          		<td class="align-middle">
-
-				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
-		  			<!--<ol class="carousel-indicators">
-		    			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-		   	 			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-		    			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-		  			</ol>-->
-		  			<div class="carousel-inner" role="listbox">
-			    		<div class="carousel-item active">
-			      			<img class="d-block img-fluid" src="img/cu_vsa_nightmarket_ad_v2.PNG" alt="First slide">
-			    		</div>
-			    	<div class="carousel-item">	
-			      		<img class="d-block img-fluid" src="img/lantern_making.png" alt="Second slide">
-			    	</div>
-			  		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-			    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			    		<span class="sr-only">Previous</span>
-			  		</a>
-			  		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-			    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			    		<span class="sr-only">Next</span>
-			  		</a>
-					</div>
-				</div>
-          	</td>
-        </tr>
-      </tbody>
-    </table>
+	<p style="clear:left"></p>
+	<br>
+	<div class="clearfix">
+		<img class="past-event" src="img/nightmarket_past.jpg" alt="Nightmarket pic">
+		<h2>CSC Nightmarket
+		<br><strong>When: Oct. 13th, 2017
+		<br>Where: Low Plaza
+		</strong></h2>
+		<p>We helped out with the Chinese Student Club's annual Night Market event, where we sold all kinds of Vietnamese treats!</p>
 	</div>
 
-	<div id="page3">
-		<a id="board" class="smooth"></a>
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<br><br><br><br>
-					<h1 class="text-center">Meet the Board</h1>
-					<br><p id="section-divider"></p><br>
-					<br>
-					<h2 class="text-center">Section coming soon</h2>
-				</div>
-			</div>
+	<p style="clear:left"></p>
+	<br>
+	<div class="clearfix">
+		<img class="past-event" src="img/lantern_making_past.jpg" alt="Tet lanterns">
+		<h2>Mid-Autumn Festival Lantern Making
+		<br><strong>When: Sept. 22nd, 2017
+		<br>Where: Lerner Multipurpose Room 477
+		</strong></h2>
+		<p>VSA's first event of the year, where we made lanterns for the Mid-Autumn Festival!</p>
+	</div>
+</div>
+<br>
+
+<div class="section-header" id="board"></div>
+<br>
+<h1>Meet the Board</h1>
+<br>
+<div class="section-divider"></div>
+<br>
+<div class="general-container">
+	<h2>Executive Board</h2>
+	<br>
+	<div class="board-container">
+		<img class="board-photo" src="img/board/linh.jpg" alt="Linh, president" title="Linh"/>
+	  	<div class="middle">
+    		<div class="text">Linh Nguyen, President, CC'19</div>
+  		</div>
+	</div>
+	<div class="board-container">
+		<img class="board-photo" src="img/board/hy.jpg" alt="Hy, vice-president">
+		<div class="middle">
+			<div class="text">Hy Nguyen, Vice-President, CC'19</div>
 		</div>
 	</div>
+	<div class="board-container">
+		<img class="board-photo" src="img/board/daisy.JPG" alt="Daisy, treasurer">
+		<div class="middle">
+			<div class="text">Daisy Vu, Treasurer, CC'19</div>
+		</div>
+	</div>
+	<div class="board-container">
+		<img class="board-photo" src="img/board/kat.jpg" alt="Kat, secretary">
+		<div class="middle">
+			<div class="text">Kat Le, Secretary, CC'19</div>
+		</div>
+	</div>
+	<br><br>
+</div>
+	<div class="section-divider"></div>
+<div class="general-container">
+	<h2>Senior &amp Graduate Advisors</h2>
+	<br>
+	<div class="board-container">
+		<img class="board-photo" src="img/board/alexia.jpg" alt="Alexia, senior advisor">
+		<div class="middle">
+			<div class="text">Alexia Le, Senior Advisor, CC'18</div>
+		</div>
+	</div>
+	<div class="board-container">
+		<img class="board-photo" src="img/board/hung.jpg" alt="Hung, senior advisor">
+		<div class="middle">
+			<div class="text">Nguyen Le Quoc Hung, Senior Advisor, CC'18</div>
+		</div>
+	</div>
+	<div class="board-container">
+		<img class="board-photo" src="img/board/livy.jpg" alt="Livy, senior advisor">
+		<div class="middle">
+			<div class="text">Livy Linh Tang, Senior Advisor, CC'18</div>
+		</div>
+	</div>
+	<div class="board-container">
+		<img class="board-photo" src="img/board/erin.jpg" alt="Erin, senior advisor">
+		<div class="middle">
+			<div class="text">Erin Cao, Senior Advisor, CC'17</div>
+		</div>
+	</div>
+	<div class="board-container">
+		<img class="board-photo" src="img/board/michael.jpg" alt="Michael, grad advisor">
+		<div class="middle">
+			<div class="text">Michael Nguyen, Graduate Advisor &amp Social Co-Chair, GSAS '18</div>
+		</div>
+	</div>
+	<br><br>
+</div>
+	<div class="section-divider"></div>
+<div class="general-container">
+	<h2>The Rest of Us :D</h2>
+	<br>
+	<div class="board-container">
+		<img class="board-photo" src="img/board/lauren-n.jpg" alt="Lauren N, marketing and design chair">
+		<div class="middle">
+			<div class="text">Lauren Nguyen, Marketing &amp Design Chair, CC'19</div>
+		</div>
+	</div>
+	<div class="board-container">
+		<img class="board-photo" src="img/board/thao-vy.jpg" alt="Thao Vy, cultural chair">
+		<div class="middle">
+			<div class="text">Thao Vy Vuong, Cultural Chair, CC'19</div>
+		</div>
+	</div>
+	<div class="board-container">
+		<img class="board-photo" src="img/board/vance-fb.JPG" alt="Vance, community service chair">
+		<div class="middle">
+			<div class="text">Vance Nguyen, Community Service Chair, CC'19</div>
+		</div>
+	</div>
+	<div class="board-container">
+		<img class="board-photo" src="img/board/anne.jpg" alt="Anne, VietFam chair">
+		<div class="middle">
+			<div class="text">Anne Nguyen, VietFam Chair, Barnard '21</div>
+		</div>
+	</div>
+	<div class="board-container">
+		<img class="board-photo" src="img/board/kev-fb.jpg" alt="Kevin, social co-chair">
+		<div class="middle">
+			<div class="text">Kevin Le, Social Co-Chair, SEAS '20</div>
+		</div>
+	</div>
+	<div class="board-container">
+		<img class="board-photo" src="img/board/kim.jpg" alt="Kim, first-year representative">
+		<div class="middle">
+			<div class="text">Ngan Kim Le, First-Year Representative, CC '21</div>
+		</div>
+	</div>
+	<div class="board-container">
+		<img class="board-photo" src="img/board/lan.JPG" alt="Lan, first-year representative">
+		<div class="middle">
+			<div class="text">Lan Nguyen, First-Year Representative, Barnard '21</div>
+		</div>
+	</div>
+	<div class="board-container">
+		<img class="board-photo" src="img/board/lauren-p.jpg" alt="Lauren P, first-year representative">
+		<div class="middle">
+			<div class="text">Lauren Pham, First-Year Representative, Barnard '21</div>
+		</div>
+	</div>
+	<div class="board-container">
+		<img class="board-photo" src="img/board/vincent.jpg" alt="Vincent, first-year representative">
+		<div class="middle">
+			<div class="text">Vincent Le, First-Year Representative, CC '21</div>
+		</div>
+	</div>
+	<div class="board-container">
+		<img class="board-photo" src="img/board/linhb.jpg" alt="Linhb, organizing committee member">
+		<div class="middle">
+			<div class="text">Linhb Nguyen, Organizing Committee Member, GSAS '18</div>
+		</div>
+	</div>
+	<div class="board-container">
+		<img class="board-photo" src="img/board/richie.jpg" alt="Richie, organizing committee member">
+		<div class="middle">
+			<div class="text">Richie Ngo, Organizing Committee Member, CC '20</div>
+		</div>
+	</div>
+</div>
 
+<br>
+<div class="section-header" id="contact"></div>
+<br>
+<h1>Contact</h1>
+<div class="section-divider"></div>
+<div class="general-container">
+	<br>
+	<h2>Contact us at: <a href="mailto: vsa@columbia.edu">vsa@columbia.edu</a></h2>
+	<br>
+	<h2>Follow us on Facebook at: <a href="https://www.facebook.com/vsacolumbia/">facebook.com/vsacolumbia/</a></h2>
+	<br>
+	<p>If you are not on the board and need to reach the Columbia VSA list serv, please contact us at the designated vsa@columbia.edu executive board email address for approval. Our board members are exclusively the only people allowed to spam the listserv!</p>
+	<br>
+</div>
 
-  </body>
+<footer>
+	<p> Made with love by Kevin Le </p>
+</footer>
+
+</body>
 </html>
