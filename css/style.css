@@ -212,7 +212,6 @@ footer p{
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-    cursor: pointer;
 }
 
 .middle {
@@ -222,7 +221,8 @@ footer p{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%);
+  cursor:pointer;
 }
 
 .board-container:hover .image {
@@ -284,11 +284,14 @@ footer p{
     and (max-device-width: 667px){
 
         h3{
-            font-size:30px;
+            font-size:24px;
         }
         
         .center h1 {
-            font-size: 45px;
+            font-size: 24px;
+        }
+        #typetext{
+            font-size: 20px;
         }
 
         nav ul li{
@@ -298,25 +301,16 @@ footer p{
             font-size:100%;
         }
         h2{
-            font-size:20px;
+            font-size:16px;
         }
         iframe{
             height: 300px;
         }
-        p{
-            padding: 1% 5%;
-        }
-        #section-divider{
+        .section-divider{
             width: 90%;
         }
         h2{
             padding: 1% 5%;
-        }
-        img.resize{
-            width:90%;
-        }
-        img.resize2{
-            width:90%;
         }
         .center{
             left: 15%;
@@ -331,6 +325,10 @@ footer p{
         }
         .board-container{
             width: 49%;
+        }
+        .past-event{
+            display: block;
+            width: 100%;
         }
         
 }
