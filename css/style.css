@@ -196,6 +196,7 @@ footer p{
     position: relative;
     width:30%;
     display:inline-block;
+    cursor:pointer;
 }
 
 .board-photo{
@@ -212,6 +213,7 @@ footer p{
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+    cursor:pointer;
 }
 
 .middle {
@@ -222,7 +224,6 @@ footer p{
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  cursor:pointer;
 }
 
 .board-container:hover .image {
@@ -309,9 +310,6 @@ footer p{
         .section-divider{
             width: 90%;
         }
-        h2{
-            padding: 1% 5%;
-        }
         .center{
             left: 15%;
             width: 70%;
@@ -329,6 +327,8 @@ footer p{
         .past-event{
             display: block;
             width: 100%;
+            padding-bottom: 2%;
+            padding-right: 0%;
         }
         
 }
