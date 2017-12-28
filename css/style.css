@@ -115,6 +115,7 @@ footer p{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -1;
 }
 
 .center{
@@ -124,19 +125,20 @@ footer p{
     top:40%;
     margin-top:-33px;
     text-align:center;
-    z-index:100;
+    z-index:10;
 }
-.center img{
+/*.center img{
     position: absolute;
     left: 0;
     top: 0;
     right: 0;
     bottom: 0;
     max-width:100%;
+    opacity: 0.80;
 
     display: block;
     margin: auto; 
-}
+}*/
 .center h1{
     font-size: 300%;
     color: #f0f0f0;
@@ -148,6 +150,13 @@ footer p{
     color:#f0f0f0;
     text-align: center;
 }
+
+/*.vsa-logo{
+    width:100px;
+    height: auto;
+    opacity: 0.90;
+    padding-left: 2%;
+}*/
 
 .section-header{
     background:#7E2121;
@@ -212,7 +221,6 @@ footer p{
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-    cursor:pointer;
 }
 
 .middle {
@@ -223,13 +231,14 @@ footer p{
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 
-.board-container:hover .image {
+.board-container:hover .image, .board-container:active .image {
   opacity: 0.3;
 }
 
-.board-container:hover .middle {
+.board-container:hover .middle, .board-container:active .middle {
   opacity: 1;
 }
 
@@ -319,7 +328,7 @@ footer p{
             padding: 1% 5%;
         }
         .next-event-container{
-            padding: 1% 10%;
+            padding: 1% 5%;
         }
         .board-container{
             width: 49%;
@@ -329,6 +338,10 @@ footer p{
             width: 100%;
             padding-bottom: 5%;
             padding-right: 0%;
+        }
+        .vsa-logo{
+            padding-top: 93px;
+            padding-left:2px;
         }
         
 }
