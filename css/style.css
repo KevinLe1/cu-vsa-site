@@ -204,7 +204,7 @@ footer p{
 .board-container{
     position: relative;
     width:30%;
-    display:inline-block;
+    display: inline-block;
 }
 
 .board-photo{
@@ -216,7 +216,7 @@ footer p{
     padding-top:2%;
     padding-right:2%;*/
     opacity: 1;
-    display: inline-block;
+    display: block;
     width: 100%;
     height: auto;
     transition: .5s ease;
@@ -234,8 +234,8 @@ footer p{
   cursor: pointer;
 }
 
-.board-container:hover .image, .board-container:active .image {
-  opacity: 0.3;
+.board-container:hover .board-photo, .board-container:active .board-photo {
+  opacity: 0.7;
 }
 
 .board-container:hover .middle, .board-container:active .middle {
@@ -342,6 +342,10 @@ footer p{
         .vsa-logo{
             padding-top: 93px;
             padding-left:2px;
+        }
+        .text{
+            font-size: 12px;
+            padding: 12px 24px;
         }
         
 }
