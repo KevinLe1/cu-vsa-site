@@ -231,14 +231,13 @@ footer p{
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  cursor: pointer;
 }
 
-.board-container:hover .board-photo, .board-container:active .board-photo {
+.board-container:hover .board-photo{
   opacity: 0.7;
 }
 
-.board-container:hover .middle, .board-container:active .middle {
+.board-container:hover .middle{
   opacity: 1;
 }
 
